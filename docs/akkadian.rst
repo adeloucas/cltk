@@ -39,7 +39,11 @@ When you have downloaded these files, utilize its file location within os.path.j
    In[7]: import os
 
    # import a text and read it
+<<<<<<< HEAD
    In[8]: fi = FileImport(os.path.join('test_akkadian', 'single_text.txt'))
+=======
+   In[8]: fi = FileImport(os.path.join('test_akkadian', 'single_text.txt')
+>>>>>>> cltk-master
 
    In[9]: fi.read_file()
 
